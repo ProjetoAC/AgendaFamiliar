@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/10/2016, 14:01:22
+    Author     : Gabriela Farias
+*/
+* {
+    font-family: Arial sans-serif;
+    background-color: #F0FFFF;
+}
+
+.botao-entrar {
+    font-size: 16px;
+    background-color: #eee;
+    padding: 10px;
+    border: 1px;
+}
+
+.botao-entrar:hover {
+    background-color: graytext; 
+}
+
+.botao-cabecalho{
+    font-size: 16px;
+    background-color: #ADD8E6;
+    padding: 20px;
+    border: 1px;
+}
+
+.botao-cabecalho:hover {
+    background-color: aqua; 
+}
+
+.botao-salvar{
+    font-size: 16px;
+    background-color: #C1CDCD;
+    padding: 10px;
+    border: 1px;
+}
+
+.botao-salvar:hover{
+    background-color: lightblue;
+}
+
