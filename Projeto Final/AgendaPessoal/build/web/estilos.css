@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/10/2016, 14:01:22
+    Author     : Gabriela Farias
+*/
+* {
+    font-family: Arial sans-serif;
+    /*background-color: #F0FFFF;*/
+}
+
+.botao-entrar {
+    font-size: 16px;
+    background-color: #eee;
+    padding: 10px;
+    border: 1px;
+}
+
+.botao-entrar:hover {
+    background-color: graytext; 
+}
+
+.botao-cabecalho{
+        font-size: 16px;
+        background-color: #ADD8E6;
+        padding: 20px;
+        border: 1px;
+    }
+
+    .botao-cabecalho:hover {
+        background-color: aqua; 
+    }
+
+.botao-salvar{
+    font-size: 16px;
+    background-color: #C1CDCD;
+    padding: 10px;
+    border: 1px;
+}
+
+.botao-salvar:hover{
+    background-color: lightblue;
+}
+
+body,html{
+    margin:0px;
+    padding:0px;
+}
+
+@media only screen and (max-width: 1500px) {    
+    .botao-cabecalho{
+        font-size: 16px;
+        background-color: #ADD8E6;
+        padding: 20px;
+        border: 1px;
+    }
+
+    .botao-cabecalho:hover {
+        background-color: aqua; 
+    }
+    
+} 
+
+@media only screen and (max-width: 1400px) {    
+    .botao-cabecalho{
+        font-size: 13px;
+        background-color: #ADD8E6;
+        padding: 15px;
+        border: 1px;
+    }
+
+    .botao-cabecalho:hover {
+        background-color: aqua; 
+    }
+    
+    .escrita{
+      width:57%;  
+      float: right;
+      font-size: 86%;
+    }
+    .alinhamento{
+        position: absolute;
+    }
+
+} 
+
+@media only screen and (max-width: 1200px) {    
+    .botao-cabecalho{
+        font-size: 10px;
+        background-color: #ADD8E6;
+        padding: 15px;
+        border: 1px;
+    }
+
+    .botao-cabecalho:hover {
+        background-color: aqua; 
+    }
+    .alinhamento{
+        position:fixed;
+        right: 0;
+        top: 200px;
+    }
+    .escrita{
+      width:60%;  
+      font-size: 87%;
+      margin: 0;
+      padding-left: 0;
+    }  
+}
+
+@media only screen and (max-width: 1100px) {    
+    .botao-cabecalho{
+        font-size: 12px;
+        background-color: #ADD8E6;
+        padding: 12px;
+        border: 0px;
+    }
+
+    .botao-cabecalho:hover {
+        background-color: aqua; 
+    }
+    .alinhamento{
+        position:fixed;
+        right: 0;
+        top: 200px;
+        right: 0px;
+        left: 400px;
+    }
+    .escrita{
+      width:20%;  
+      float: right;
+      font-size:80%;
+      float: right;
+     
+    } 
+}
+
+@media only screen and (max-width: 1000px) {    
+    .botao-cabecalho{
+        font-size: 11px;
+        background-color: #ADD8E6;
+        padding: 11.5px;
+       
+    }
+
+    .botao-cabecalho:hover {
+        background-color: aqua; 
+    }
+    
+}
+
+@media only screen and (max-width: 900px) {    
+    .botao-cabecalho{
+        font-size: 15px;
+        background-color: #ADD8E6;
+        padding: 12px;
+        border: 1px;
+        list-style:none;
+    }
+
+    .botao-cabecalho:hover {
+        background-color: aqua; 
+    }
+    
+}
+
+@media only screen and (max-width: 1680px) {    
+    .escrita{
+      width:57%;  
+      float: right;
+      padding-right: 0px;
+      padding-left: 0px;
+      
+    }  
+}
+
+
+@media only screen and (max-width: 1100px) {    
+    .escrita{
+      width:55%;  
+      font-size: 15px;
+      margin: 0;
+      float: top;
+    }  
+    
+}
